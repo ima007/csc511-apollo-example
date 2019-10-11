@@ -1,0 +1,9 @@
+query business($id: String!) {
+  business(id: $id) {
+    name
+    id
+    alias
+    rating
+    url
+  }
+}

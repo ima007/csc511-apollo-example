@@ -1,0 +1,15 @@
+<Input @value={{term}} @placeholder="Enter search here" />
+<ul>
+  {{#each model.business as |business|}}
+  <li><LinkTo @route='details' @model={{business.id}}>{{business.name}}</LinkTo></li>
+  {{/each}}
+</ul>
+
+{{model.id}}
+
+
+{{model.alias}}
+{{model.url}}
+
+
+{{outlet}}
