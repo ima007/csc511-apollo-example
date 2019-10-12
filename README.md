@@ -1,7 +1,6 @@
 # ember-apollo-example
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+This repo shows an example of how to query graphql with ember-apollo-client, using the Yelp API. It also shows an example proxy that can be leveraged.
 
 ## Prerequisites
 
