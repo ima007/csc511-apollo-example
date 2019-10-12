@@ -59,6 +59,7 @@
   "dependencies": {
     "curl-request": "^1.1.1",
     "graphql-binding-yelp": "0.0.2",
-    "graphql-tag": "^2.10.1"
+    "graphql-tag": "^2.10.1",
+    "request": "^2.88.0"
   }
 }

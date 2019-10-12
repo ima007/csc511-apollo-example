@@ -7,7 +7,9 @@ module.exports = function(environment) {
     rootURL: '/',
     locationType: 'auto',
     apollo: {
-      apiURL: '/api'
+      //apiURL: '/api'
+      apiURL:
+        'http://node-express-env.zqxi3wpmdm.us-east-2.elasticbeanstalk.com/yelp'
     },
     EmberENV: {
       FEATURES: {
