@@ -1,0 +1,22 @@
+
+<div class="search-container">
+  <h2>Search</h2>
+  <Input
+    @value={{term}}
+    @placeholder="Enter search here"
+    @enter={{action "submitter"}} />
+
+  {{#if model.business}}
+    <ul class="autocomplete-results">
+      {{#each model.business as |business|}}
+      <li>
+        <LinkTo @route='details' @model={{business.id}}>{{business.name}}</LinkTo>
+      </li>
+      {{/each}}
+    </ul>
+  {{/if}}
+</div>
+
+
+
+{{outlet}}
